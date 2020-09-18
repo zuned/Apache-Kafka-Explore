@@ -12,5 +12,6 @@
 
 - Console Consumer reading from beginning : > `kafka-console-consumer --bootstrap-server 127.0.0.1:9092  --topic first_topic --from-beginning`
 - if beginning is not provided console consumer will wait for new message : > `kafka-console-consumer --bootstrap-server 127.0.0.1:9092  --topic first_topic `
+- Consumer with same group will disrtibute data among them selves : >  `kafka-console-consumer --bootstrap-server 127.0.0.1:9092  --topic first_topic --group my-first-application`
 
 
