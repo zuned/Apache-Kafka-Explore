@@ -1,8 +1,8 @@
 # kafka
 
-- To Run Kafka And Zookeeper we need to go in kafka_home directory
--- Start Zookeeper : `zookeeper-server-start config/zookeeper.properites`
--- Start Kafka : `kafka-server-start config/server.properties`
+### To Run Kafka And Zookeeper we need to go in kafka_home directory
+- Start Zookeeper : `zookeeper-server-start config/zookeeper.properites`
+- Start Kafka : `kafka-server-start config/server.properties`
 
 ## kafka CLI
 - Create Topic : > `kafka-topics --zookeeper 127.0.0.1:2181 --topic first_topic --create --partitions 3 --replication-factor 1`
