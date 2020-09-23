@@ -22,5 +22,10 @@
 - descibe consumber group : > `kafka-consumer-groups --bootstrap-server 127.0.0.1:9092 --describe --group my-first-application`
 - reset offset of consumer group : > `kafka-consumer-groups --bootstrap-server 127.0.0.1:9092 --group my-first-application --reset-offsets --to-earliest --execute --topic first_topic`
 
+## Kafka Properties
 
+-- Idempotent
+-- High Throughput
+-- Safe Producer
+-- Producer Batching
 
